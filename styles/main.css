@@ -1,0 +1,161 @@
+html *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size:1.4rem;
+}
+
+p{
+    font-size:.9rem;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 4rem;
+    margin:0;
+    padding:0;
+    background-color:#ffffff;
+}
+
+.header__title{
+    display:inline-block;
+    margin-left: 3rem;
+    color:#2d3982;
+}
+
+nav{
+    display:inline-block;
+    padding-left: 58%;
+}
+
+.nav__list__item{
+    display:inline-block;
+    margin-left: .7rem;
+    padding-bottom: .5rem;
+}
+
+.nav__list__link{
+    text-decoration: none;
+    color:black;
+}
+
+.nav__list__link:hover{
+    font-weight: bold;
+}
+
+.nav__list__item--active{
+    border-bottom: solid;
+    border-color:#e37889;
+}
+
+.hero{
+    height: 30rem;
+    width: 100%;
+    background-color: #f8f8f8;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero__text{
+    display: inline-block;
+    width: 45%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
+
+.hero__text__slogan{
+    font-family: Comic Sans MS;
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top:0;
+}
+
+.hero__text__button{
+    height:2.2rem;
+    width:9rem;
+    background-color: #5969d0;
+    color: #fff;
+    border-radius: 50px;
+    margin-top:1rem;
+    font-size:.8rem;
+}
+
+.hero__image__container{
+    display:inline;
+    max-height: 20rem;
+    max-width:30rem;
+    margin-right:5%;
+    margin-bottom:5%;
+}
+
+.hero__image{
+    max-height: 95%;
+    max-width: 95%;
+}
+
+.recommendations{
+    height: 30rem;
+    width:100%;
+}
+
+.recommendations__title{
+    color:#101d42;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.dests{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dests__card{
+    height: 21rem;
+    width: 14rem;
+    margin-top: 1rem;
+    border:1px solid rgb(0,0,0,.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgb(0,0,0,0.2);
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.d1{
+    background-image: url("../assets/hawaii.jpg");
+}
+
+.d2{
+    background-image: url("../assets/iceland.jpg");
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.d3{
+    background-image: url("../assets/greece.jpg");
+    margin-right: 1rem;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.dest__link{
+    text-decoration: none;
+}
+
+.dest__card__title{
+    color: #fff;
+    margin-right: 1rem;
+}
